@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>W3Schools</title>
+        <link>http://www.w3schools.com</link>
+        <description>Free web building tutorials.The World's Largest Web Developer Site.</description>
+    </channel>
+    <channel>
+        <title>Tutorials Point</title>
+        <link>http://www.tutorialspoint.com/</link>
+        <description>Simply Easy Learning.Enjoy theory and lab at the same time, right here online.</description>
+    </channel>
+    <channel>
+        <title>Java Tutorials</title>
+        <link>http://www.javatpoint.com/</link>
+        <description>Learn all the Java technologies for free.Intuitively built for the beginners.</description>
+    </channel>
+    <channel>
+        <title>Envato Tuts+</title>
+        <link>http://tutsplus.com/</link>
+        <description>Everything you need to learn creative skills from code to craft.A huge range of earning resources across 10 creative topics, all in one convenient place.</description>
+    </channel>
+</rss>
+
+
+
+
