@@ -14,7 +14,7 @@ To develop an alarm clock using Android Studio mobile application development fr
 8. Run the application on an emulator.
 
 ## OUTPUT
-![Output](output.png)
+![Output](Output.png)
 
 ## RESULT
 Thus, an Android mobile application to demonstrate alarm clock was developed and executed.
