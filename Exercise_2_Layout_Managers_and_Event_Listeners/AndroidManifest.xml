@@ -1,0 +1,41 @@
+<!-- AndroidManifest.xml
+This configuration file declares all activities in the app and sets CahcetActivity as the launcher.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lab.cahcet.edu.cahcet">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".CahcetActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Courses_Offered"
+            android:label="@string/title_activity_courses__offered">
+            <intent-filter>
+                <action android:name="lab.cahcet.edu.cahcet.Courses_Offered" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Galary"
+            android:label="@string/title_activity_galary">
+            <intent-filter>
+                <action android:name="lab.cahcet.edu.cahcet.Galary" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Aim"
+            android:label="@string/title_activity_aim">
+            <intent-filter>
+                <action android:name="lab.cahcet.edu.cahcet.Aim" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
