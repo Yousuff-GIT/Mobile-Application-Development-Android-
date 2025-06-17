@@ -15,7 +15,7 @@ To develop an application that writes data to the SD card using Android Studio m
 9. Run the application in an emulator with external storage access.
 
 ## OUTPUT
-![Output](output.png)
+![Output](Output.png)
 
 ## RESULT
 Thus, an Android mobile application that writes data to the SD card was developed and executed successfully.
