@@ -12,5 +12,8 @@ To develop an application that draws basic graphical primitives on the screen us
 6. Replace the default launcher icon using Asset Studio wizard.
 7. Run the application on an emulator.
 
+## OUTPUT
+![Output Screenshot](https://github.com/Yousuff-GIT/Mobile-Application-Development-Android-/blob/main/Exercise_4_Basic_Graphical_Primitives/output.png?raw=true)
+
 ## RESULT
 Thus, an Android mobile application that draws basic graphical primitives was successfully developed and executed.
