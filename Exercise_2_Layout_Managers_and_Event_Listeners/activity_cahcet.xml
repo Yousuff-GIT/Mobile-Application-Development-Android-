@@ -1,0 +1,56 @@
+<!-- activity_cahcet.xml
+This layout defines the launcher screen of the application. It includes the college name, logo,
+and navigation buttons for Aim, Courses, and Gallery sections using RelativeLayout.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CahcetActivity">
+
+    <!-- College Title -->
+    <TextView android:id="@+id/cahcet_txt" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" android:text="@string/college_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- College Logo -->
+    <ImageView android:id="@+id/cahcetlogo" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_below="@+id/cahcet_txt"
+        android:layout_centerHorizontal="true" android:layout_marginTop="10dp"
+        android:src="@drawable/cahcet_logo" />
+
+    <!-- Motto -->
+    <TextView android:id="@+id/moto_txt" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_below="@+id/cahcetlogo"
+        android:layout_centerHorizontal="true"
+        android:text="Enter to Learn.Leave to Serve"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <!-- Recognition -->
+    <TextView android:id="@+id/recognition_txt" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_below="@+id/moto_txt"
+        android:layout_centerHorizontal="true" android:layout_marginTop="5dp"
+        android:text="Accredited by NBA and NAAC - A Grade"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#0000CC" />
+
+    <!-- Buttons for Navigation -->
+    <Button android:id="@+id/moto_btn" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_below="@+id/recognition_txt"
+        android:layout_centerHorizontal="true" android:onClick="onaimClick"
+        android:text="AIM" />
+
+    <Button android:id="@+id/courses_btn" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_below="@+id/moto_btn"
+        android:layout_centerHorizontal="true" android:onClick="oncoursesClick"
+        android:text="COURSES" />
+
+    <Button android:id="@+id/galary_btn" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_below="@+id/courses_btn"
+        android:layout_centerHorizontal="true" android:onClick="ongalaryClick"
+        android:text="GALARY" />
+</RelativeLayout>
