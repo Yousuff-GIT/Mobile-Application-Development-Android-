@@ -1,23 +1,26 @@
-# EXNO:01 — GUI Components, Font and Colours
+# EXNO: 02 — Layout Managers and Event Listeners
 
-## AIM:
-To develop an application that uses GUI components, font styles, and color changes using the Android Studio mobile application development framework.
+## AIM
+To develop an application that uses Layout Managers and Event listeners using the Android Studio mobile application development framework.
 
-## PROCEDURE:
-1. **Create a New Project:** Initialize a blank activity and extend the AppCompatActivity class in a new Java file.
-2. **Design the GUI:** Use various GUI components like `TextView`, `Button`, `ImageButton`, `RadioButton`, `CheckBox`, and `ToggleButton` in the layout XML file.
-3. **Font Functionality:** Implement font style changes in the Java code using radio buttons and asset fonts (Candella, Stencil, Alex).
-4. **Color Functionality:** Use checkboxes to allow foreground and background color changes dynamically.
-5. **Toast Messages:** Display Android version release information using `Toast`.
-6. **Image Toggle:** Use a toggle button to show/hide Android version history using `ImageView`.
-7. **Launcher Icon:** Customize the application’s launcher icon using the Asset Studio wizard.
-8. **Testing:** Run the application on an emulator to verify its functionality.
+## PROCEDURE
+1. Create a new project with a blank activity and a Java class that extends the `AppCompatActivity` parent class.
+2. Design the launcher activity using `RelativeLayout` and incorporate UI widgets such as `TextView`, `Button`, and `ImageView`.
+3. Create a new activity using `LinearLayout` and add suitable `TextView` elements for displaying the institutional vision and mission.
+4. Create a `GridLayout` based activity to list undergraduate and postgraduate courses using `TextView` components.
+5. Create another activity using `FrameLayout` and use `ImageView` to display campus images.
+6. Link the created activities to the launcher activity through `Button` widgets.
+7. Implement event listeners for each button using the `OnClickListener` interface.
+8. Launch respective activities via the `Intent` class upon user interaction.
+9. Declare and configure all activities in the `AndroidManifest.xml` file using intent filters.
+10. Replace the default launcher icon using the Asset Studio wizard available in Android Studio.
+11. Execute the application on an Android emulator to verify its functionality.
 
-## OUTPUT:
-The following image illustrates the output screens as seen on an Android emulator.
+## OUTPUT
 
-### App Output Screenshot:
-![App Output](output/2423faf8-1ba4-41e3-83de-55fc30a119ff.png)
+The following screenshot showcases the functioning of the developed Android application:
 
-## RESULT:
-Thus, an Android mobile application that uses GUI components, font selection, and color customization was successfully developed and executed using Android Studio.
+![App Output](output/app_output_screenshot.png)
+
+## RESULT
+Thus, an Android mobile application utilizing various Layout Managers (`RelativeLayout`, `LinearLayout`, `GridLayout`, and `FrameLayout`) and implementing event listeners was successfully created, executed, and validated through an emulator. The application demonstrates the ability to manage multiple user interfaces and navigation logic effectively.
