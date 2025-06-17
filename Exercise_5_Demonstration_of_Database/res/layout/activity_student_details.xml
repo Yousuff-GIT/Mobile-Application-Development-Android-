@@ -1,0 +1,21 @@
+<!-- activity_student_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+    <EditText android:id="@+id/rollnumber_ET" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Roll Number" android:inputType="number" />
+    <EditText android:id="@+id/name_ET" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Student's Name" />
+    <EditText android:id="@+id/course_ET" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Course" />
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" android:layout_marginTop="20dp">
+        <Button android:id="@+id/savebtn" android:text="Save"
+            android:background="#4CBB17" android:onClick="onaddbtnClicked"/>
+        <Button android:id="@+id/deletebtn" android:text="Delete"
+            android:layout_marginLeft="10dp" android:background="#ff0000" android:onClick="ondeletebtnClicked"/>
+        <Button android:id="@+id/viewbtn" android:text="View"
+            android:layout_marginLeft="10dp" android:background="#0BB5FF" android:onClick="onviewbtnClicked"/>
+    </LinearLayout>
+</LinearLayout>
