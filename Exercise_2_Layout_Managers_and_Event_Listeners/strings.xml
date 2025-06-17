@@ -1,0 +1,30 @@
+<!-- strings.xml
+This file holds string resources used across the application for consistency and localization.
+-->
+<resources>
+<string name="app_name">CAHCET</string>
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+<string name="title_activity_aim">Aim</string>
+<string name="mission_text1">* To nurture world class intellectual growth of our students by imparting high quality, futuristic technical education in a cost effective manner.</string>
+<string name="mission_text2">* To inculcate love for integrity and moral values among students to enable them to contribute to the development of humanity through application and dissemination of technical knowledge.</string>
+<string name="mission_text3">* To strive for advancement in Engineering Research and develop into a Centre par Excellence in Engineering and Technology.</string>
+<string name="college_name">C ABDUL HAKEEM COLLEGE OF ENGINNERING AND TECHNOLOGY</string>
+<string name="title_activity_courses__offered">Courses_Offered</string>
+<string name="mech">* B.E. Mechanical Engineering</string>
+<string name="eee">* B.E. Electrical and Electronics Engineering</string>
+<string name="ece">* B.E. Electronics and Communication Engineering</string>
+<string name="cse">* B.E. Computer Science and Engineering</string>
+<string name="civil">* B.E. Civil Engineering</string>
+<string name="aero">* B.E. Aeronautical Engineering</string>
+<string name="it">* B.Tech. Information Technology</string>
+<string name="pgcourses">POST GRADUATE COURSES</string>
+<string name="meece">* M.E. Applied Electronics.</string>
+<string name="mepe">* M.E. Power Electronics</string>
+<string name="mba">* MBA (Master of Business Administration)</string>
+<string name="mca">* MCA (Master of Computer Application)</string>
+<string name="mecse">* M.E. Computer Science and Engineering</string>
+<string name="mecad">* M.E. CAD/CAM</string>
+<string name="ugcourses">UNDER GRADUATE COURSES</string>
+<string name="title_activity_galary">Galary</string>
+</resources>
