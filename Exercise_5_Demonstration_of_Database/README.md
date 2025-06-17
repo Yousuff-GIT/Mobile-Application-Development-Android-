@@ -11,7 +11,8 @@ To develop an application that makes use of a database using Android Studio mobi
 5. Replace default launcher icon using Asset Studio.
 6. Run the application using Android Emulator.
 
-![Output](res/drawable/output.png)
+## OUTPUT
+![Output]([res/drawable/output.png](https://github.com/Yousuff-GIT/Mobile-Application-Development-Android-/blob/main/Exercise_5_Demonstration_of_Database/res/drawable/Output.png))
 
 ## RESULT
 Thus, an Android mobile application that makes use of a database was developed and executed.
